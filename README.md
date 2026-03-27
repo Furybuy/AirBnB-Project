@@ -1,49 +1,57 @@
 AirBnB Pricing Analysis Dashboard
 
-This project features a data-driven dashboard created in Tableau to analyze the various factors that influence AirBnB apartment pricing. Using a pre-cleaned dataset, the analysis explores how physical characteristics, geographic location, and seasonal trends impact the market value of listings.
-Project Overview
+This project features a data-driven dashboard created in Tableau to analyze the factors influencing AirBnB pricing. By leveraging a pre-cleaned dataset, the analysis explores how property attributes, geographic location, and seasonal trends impact market value.
+🛠️ The Stack
 
-The primary objective of this dashboard is to provide a visual breakdown of price drivers in the AirBnB market. It allows users to understand how pricing scales with property size, which specific neighborhoods (zipcodes) command the highest premiums, and how revenue fluctuates throughout the year.
-Key Insights & Visualizations
-1. Avg Price per Bedrooms
+This project utilizes a modern data visualization stack focused on efficiency and clarity:
 
-A bar chart demonstrating the direct correlation between the number of bedrooms and the average price.
+    Tableau Public / Desktop: Used for building the interactive dashboard and complex calculations.
 
-    Data Insight: The visualization shows a clear upward trend, with 1-bedroom apartments averaging approximately $96.2 and 6-bedroom properties reaching up to $584.8.
+    Data Processing: Pre-cleaned Excel/CSV dataset.
 
-2. Price by Zipcode
+    Methodology:
 
-A granular look at pricing across different postal codes. This chart helps identify the most expensive and most affordable areas for rentals.
+        Data Aggregation: Grouping listings by physical attributes (Bedrooms) and temporal attributes (Month/Season).
 
-    Data Insight: Prices vary significantly by location, with certain zipcodes consistently staying above the $150 average mark.
+        Geospatial Analysis: Utilizing Zipcodes to map regional price fluctuations.
 
-3. Revenue for Year (Seasonality)
+        Time-Series Analysis: Tracking "Revenue for Year" to identify high-occupancy months.
 
-A time-series line graph tracking revenue fluctuations over the course of 2016.
+📈 Key Insights & Visualizations
+1. Pricing vs. Capacity (Avg Price per Bedrooms)
 
-    Data Insight: The dashboard tracks revenue from March through November, showing a steady climb and peak periods where houses are most frequently "taken" or occupied.
+A bar chart demonstrating the direct correlation between the number of bedrooms and average price.
 
-4. Inventory Overview
+    Finding: Pricing scales significantly from $96.2 (1-bedroom) up to $584.8 (6-bedroom), indicating a premium on large-group accommodations.
 
-A summary table showing the distribution of available houses based on bedroom count, highlighting that 1-bedroom listings make up the majority of the market inventory (1,811 houses).
-Technologies Used
+2. Geographic Distribution (Price by Zipcode)
 
-    Visualization Tool: Tableau Public
+A granular look at pricing across different postal codes.
 
-    Dataset: Pre-cleaned AirBnB listing data
+    Finding: The visualization identifies specific high-value neighborhoods where the average price consistently exceeds $150, regardless of apartment size.
 
-    File Format: .twb (Tableau Workbook)
+3. Seasonality & Revenue (Revenue for Year)
 
-How to Use
+A time-series line graph tracking revenue fluctuations over the 2016 calendar year.
 
-    View Online: You can access the interactive version of this dashboard on Tableau Public.
+    Finding: Revenue shows a steady climb through March, peaking in the summer months, which highlights the seasonality of when houses are most frequently "taken."
 
-    Local Access: * Download the AirBnB-Project.twb file from this repository.
+🚀 Usage & Deployment
+How to Reproduce
 
-        Open the file using Tableau Desktop or Tableau Public (ensure you have the corresponding data source linked).
+    Clone the Repository:
+    Bash
 
-Repository Structure
+    git clone https://github.com/Furybuy/AirBnB-Project.git
 
-    AirBnB-Project.twb: The main Tableau Workbook file containing the dashboard and worksheets.
+    Open in Tableau: Launch Tableau Desktop or Tableau Public and open the AirBnB-Project.twb file.
 
-    Screenshot.png: A preview of the final dashboard layout.
+    Data Connection: If prompted, point the data source to the included cleaned CSV/Excel file in the /Data folder.
+
+Portfolio Highlights
+
+    Business Intelligence: Demonstrates the ability to transform raw data into actionable insights for property owners.
+
+    UI/UX Design: Focuses on a clean, tiled layout for high scannability and "at-a-glance" metric tracking.
+
+    Data Storytelling: Connects disparate variables (location, size, and time) into a single cohesive narrative.
