@@ -1,6 +1,7 @@
 AirBnB Pricing Analysis Dashboard
 
 This project features a data-driven dashboard created in Tableau to analyze the factors influencing AirBnB pricing. By leveraging a pre-cleaned dataset, the analysis explores how property attributes, geographic location, and seasonal trends impact market value.
+
 🛠️ The Stack
 
 This project utilizes a modern data visualization stack focused on efficiency and clarity:
@@ -16,6 +17,7 @@ This project utilizes a modern data visualization stack focused on efficiency an
         Geospatial Analysis: Utilizing Zipcodes to map regional price fluctuations.
 
         Time-Series Analysis: Tracking "Revenue for Year" to identify high-occupancy months.
+
 
 📈 Key Insights & Visualizations
 1. Pricing vs. Capacity (Avg Price per Bedrooms)
@@ -35,6 +37,7 @@ A granular look at pricing across different postal codes.
 A time-series line graph tracking revenue fluctuations over the 2016 calendar year.
 
     Finding: Revenue shows a steady climb through March, peaking in the summer months, which highlights the seasonality of when houses are most frequently "taken."
+
 
 🚀 Usage & Deployment
 How to Reproduce
